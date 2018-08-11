@@ -82,6 +82,14 @@
                                     <constraint firstItem="Zyl-9I-0qD" firstAttribute="top" secondItem="l3H-w1-nvg" secondAttribute="top" constant="16" id="vKi-y3-uml"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uul-fR-JH8">
+                                <rect key="frame" x="169" y="150" width="36" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendAction:" destination="E4K-To-6dY" eventType="touchUpInside" id="mYX-S7-UdL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -92,6 +100,10 @@
                         <viewLayoutGuide key="safeArea" id="rt5-Zv-7m0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="OrderPage" id="mxy-mD-r0e"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="W6T-7b-J5G" id="gNo-HX-bYi"/>
+                        <outlet property="priceTextField" destination="bi5-77-5mO" id="qP8-MR-Mft"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekY-46-vxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

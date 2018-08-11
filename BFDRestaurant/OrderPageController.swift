@@ -7,9 +7,13 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseDatabase
 
 class OrderPageController: UIViewController {
+
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var priceTextField: UITextField!
 
     var ref: DatabaseReference!
 
@@ -21,4 +25,9 @@ class OrderPageController: UIViewController {
         print("OrderPage")
     }
 
+    @IBAction func sendAction(_ sender: Any) {
+        let item = Item(name: nameTextField.text, price: Int(priceTextField.text ?? "0"))
+        
+        self.ref.child("Order").childByAutoId().setValue(item.dictionary)
+    }
 }

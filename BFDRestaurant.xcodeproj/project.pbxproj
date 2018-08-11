@@ -16,7 +16,6 @@
 		B6DE1131211EDA7B0037C203 /* BFDRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1130211EDA7B0037C203 /* BFDRestaurantTests.swift */; };
 		B6DE113C211EDAFB0037C203 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6DE113B211EDAFB0037C203 /* GoogleService-Info.plist */; };
 		B6DE113F211EDD2A0037C203 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE113E211EDD2A0037C203 /* Item.swift */; };
-		B6DE1148211EDED00037C203 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1147211EDED00037C203 /* Order.swift */; };
 		B6DE114A211EE2430037C203 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1149211EE2430037C203 /* MainTabBarController.swift */; };
 		B6DE114C211EE27A0037C203 /* OrderPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE114B211EE27A0037C203 /* OrderPageController.swift */; };
 		B6DE114E211EE29B0037C203 /* OrderHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE114D211EE29B0037C203 /* OrderHistoryController.swift */; };
@@ -51,7 +50,6 @@
 		B6DE1132211EDA7B0037C203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6DE113B211EDAFB0037C203 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6DE113E211EDD2A0037C203 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		B6DE1147211EDED00037C203 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B6DE1149211EE2430037C203 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		B6DE114B211EE27A0037C203 /* OrderPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPageController.swift; sourceTree = "<group>"; };
 		B6DE114D211EE29B0037C203 /* OrderHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryController.swift; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				B6DE113E211EDD2A0037C203 /* Item.swift */,
-				B6DE1147211EDED00037C203 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,7 +319,6 @@
 			files = (
 				B6DE114E211EE29B0037C203 /* OrderHistoryController.swift in Sources */,
 				B6DE113F211EDD2A0037C203 /* Item.swift in Sources */,
-				B6DE1148211EDED00037C203 /* Order.swift in Sources */,
 				B6DE114A211EE2430037C203 /* MainTabBarController.swift in Sources */,
 				B6DE1121211EDA7A0037C203 /* BFDRestaurant.xcdatamodeld in Sources */,
 				B6DE1119211EDA7A0037C203 /* AppDelegate.swift in Sources */,
