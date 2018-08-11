@@ -18,7 +18,9 @@
 		B6DE113F211EDD2A0037C203 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE113E211EDD2A0037C203 /* Item.swift */; };
 		B6DE114A211EE2430037C203 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1149211EE2430037C203 /* MainTabBarController.swift */; };
 		B6DE114C211EE27A0037C203 /* OrderPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE114B211EE27A0037C203 /* OrderPageController.swift */; };
-		B6DE114E211EE29B0037C203 /* OrderHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE114D211EE29B0037C203 /* OrderHistoryController.swift */; };
+		B6DE1150211EED7C0037C203 /* OrderHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE114F211EED7C0037C203 /* OrderHistoryController.swift */; };
+		B6DE1153211EF18E0037C203 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1151211EF18E0037C203 /* OrderCell.swift */; };
+		B6DE1154211EF18E0037C203 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DE1152211EF18E0037C203 /* OrderCell.xib */; };
 		E80807FCA710D8B4C3E0B67F /* Pods_BFDRestaurantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7D4003E5D52EC1CEB2A714 /* Pods_BFDRestaurantTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +54,9 @@
 		B6DE113E211EDD2A0037C203 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B6DE1149211EE2430037C203 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		B6DE114B211EE27A0037C203 /* OrderPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPageController.swift; sourceTree = "<group>"; };
-		B6DE114D211EE29B0037C203 /* OrderHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryController.swift; sourceTree = "<group>"; };
+		B6DE114F211EED7C0037C203 /* OrderHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryController.swift; sourceTree = "<group>"; };
+		B6DE1151211EF18E0037C203 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		B6DE1152211EF18E0037C203 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
 		BE960FB5A5C2033900636A0D /* Pods-BFDRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDRestaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-BFDRestaurant/Pods-BFDRestaurant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +122,9 @@
 				B6DE111F211EDA7A0037C203 /* BFDRestaurant.xcdatamodeld */,
 				B6DE1149211EE2430037C203 /* MainTabBarController.swift */,
 				B6DE114B211EE27A0037C203 /* OrderPageController.swift */,
-				B6DE114D211EE29B0037C203 /* OrderHistoryController.swift */,
+				B6DE114F211EED7C0037C203 /* OrderHistoryController.swift */,
+				B6DE1151211EF18E0037C203 /* OrderCell.swift */,
+				B6DE1152211EF18E0037C203 /* OrderCell.xib */,
 			);
 			path = BFDRestaurant;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DE1154211EF18E0037C203 /* OrderCell.xib in Resources */,
 				B6DE1126211EDA7B0037C203 /* LaunchScreen.storyboard in Resources */,
 				B6DE113C211EDAFB0037C203 /* GoogleService-Info.plist in Resources */,
 				B6DE1123211EDA7B0037C203 /* Assets.xcassets in Resources */,
@@ -317,8 +324,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6DE114E211EE29B0037C203 /* OrderHistoryController.swift in Sources */,
 				B6DE113F211EDD2A0037C203 /* Item.swift in Sources */,
+				B6DE1150211EED7C0037C203 /* OrderHistoryController.swift in Sources */,
+				B6DE1153211EF18E0037C203 /* OrderCell.swift in Sources */,
 				B6DE114A211EE2430037C203 /* MainTabBarController.swift in Sources */,
 				B6DE1121211EDA7A0037C203 /* BFDRestaurant.xcdatamodeld in Sources */,
 				B6DE1119211EDA7A0037C203 /* AppDelegate.swift in Sources */,
