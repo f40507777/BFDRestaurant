@@ -8,7 +8,8 @@ target 'BFDRestaurant' do
   # Pods for BFDRestaurant
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
 
 
   target 'BFDRestaurantTests' do
