@@ -1,0 +1,6 @@
+framework module Pods_BFDRestaurant {
+  umbrella header "Pods-BFDRestaurant-umbrella.h"
+
+  export *
+  module * { export * }
+}
