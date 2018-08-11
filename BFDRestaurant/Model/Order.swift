@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Order {
-    var items: [Item] = []
-    var total: Int = 0
+struct Order: Codable {
+    var items: [Item]
+    var total: Int
 }
+

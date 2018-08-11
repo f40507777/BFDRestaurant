@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Item {
-    var name: String { get }
-    var price: Int { get }
+struct Item: Codable {
+    var name: String
+    var price: Int
 }

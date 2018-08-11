@@ -7,6 +7,7 @@ target 'BFDRestaurant' do
 
   # Pods for BFDRestaurant
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
 
 
