@@ -16,6 +16,11 @@
 		B6DE1126211EDA7B0037C203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE1124211EDA7B0037C203 /* LaunchScreen.storyboard */; };
 		B6DE1131211EDA7B0037C203 /* BFDRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1130211EDA7B0037C203 /* BFDRestaurantTests.swift */; };
 		B6DE113C211EDAFB0037C203 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6DE113B211EDAFB0037C203 /* GoogleService-Info.plist */; };
+		B6DE113F211EDD2A0037C203 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE113E211EDD2A0037C203 /* Item.swift */; };
+		B6DE1142211EDDFF0037C203 /* BlackTeaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1141211EDDFF0037C203 /* BlackTeaItem.swift */; };
+		B6DE1144211EDE4D0037C203 /* GreenTeaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1143211EDE4D0037C203 /* GreenTeaItem.swift */; };
+		B6DE1146211EDE940037C203 /* Pasta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1145211EDE940037C203 /* Pasta.swift */; };
+		B6DE1148211EDED00037C203 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE1147211EDED00037C203 /* Order.swift */; };
 		E80807FCA710D8B4C3E0B67F /* Pods_BFDRestaurantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7D4003E5D52EC1CEB2A714 /* Pods_BFDRestaurantTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +52,11 @@
 		B6DE1130211EDA7B0037C203 /* BFDRestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFDRestaurantTests.swift; sourceTree = "<group>"; };
 		B6DE1132211EDA7B0037C203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6DE113B211EDAFB0037C203 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B6DE113E211EDD2A0037C203 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B6DE1141211EDDFF0037C203 /* BlackTeaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackTeaItem.swift; sourceTree = "<group>"; };
+		B6DE1143211EDE4D0037C203 /* GreenTeaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTeaItem.swift; sourceTree = "<group>"; };
+		B6DE1145211EDE940037C203 /* Pasta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasta.swift; sourceTree = "<group>"; };
+		B6DE1147211EDED00037C203 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		BE960FB5A5C2033900636A0D /* Pods-BFDRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDRestaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-BFDRestaurant/Pods-BFDRestaurant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +112,7 @@
 		B6DE1117211EDA7A0037C203 /* BFDRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				B6DE113D211EDD060037C203 /* Model */,
 				B6DE1118211EDA7A0037C203 /* AppDelegate.swift */,
 				B6DE111A211EDA7A0037C203 /* ViewController.swift */,
 				B6DE111C211EDA7A0037C203 /* Main.storyboard */,
@@ -121,6 +132,26 @@
 				B6DE1132211EDA7B0037C203 /* Info.plist */,
 			);
 			path = BFDRestaurantTests;
+			sourceTree = "<group>";
+		};
+		B6DE113D211EDD060037C203 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE1140211EDDE90037C203 /* Items */,
+				B6DE113E211EDD2A0037C203 /* Item.swift */,
+				B6DE1147211EDED00037C203 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6DE1140211EDDE90037C203 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE1141211EDDFF0037C203 /* BlackTeaItem.swift */,
+				B6DE1143211EDE4D0037C203 /* GreenTeaItem.swift */,
+				B6DE1145211EDE940037C203 /* Pasta.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 		D18FC473930883858C8A525F /* Pods */ = {
@@ -298,8 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DE113F211EDD2A0037C203 /* Item.swift in Sources */,
 				B6DE111B211EDA7A0037C203 /* ViewController.swift in Sources */,
+				B6DE1148211EDED00037C203 /* Order.swift in Sources */,
+				B6DE1146211EDE940037C203 /* Pasta.swift in Sources */,
+				B6DE1142211EDDFF0037C203 /* BlackTeaItem.swift in Sources */,
 				B6DE1121211EDA7A0037C203 /* BFDRestaurant.xcdatamodeld in Sources */,
+				B6DE1144211EDE4D0037C203 /* GreenTeaItem.swift in Sources */,
 				B6DE1119211EDA7A0037C203 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
